@@ -20,16 +20,56 @@ body{
 
 .floating_rec{
   position: absolute;
-  top: 30%;
-  bottom: 30%;
-  left: 0px;
-  right: 0px;
-  background-color: rgba(255, 0, 0, 0.6);
+  top: 15%;
+  height: 70%;
+  width: 100%;
+  background-color: rgba(120, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.content{
+  position: relative;
+  top: 25%;
+  left: 5%;
+  color: white;
+  text-align: left;
+  width: 70%;
+  font-family: sans-serif;
+}
+
+.title{
+  font-size: 320%;
+}
+
+.text{
+  padding-top: 1%;
+  font-size: 150%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.icons {
+  padding-top: 3%;
+}
+
+.icons i + i {
+  padding-left: 5%;
+}
+
+.logo{
+  position: relative;
+  top: 25%;
+  right: 3%;
+  height: 50%;
+  float: right;
+}
 
 .bg-img-wrapper{
   z-index: -1;
   overflow: hidden;
   height: 100%;
+  background-image: url("../../../assets/images/backgrounds/upenn.png");
+  background-size: cover;
 }
 
 .background{
@@ -55,5 +95,4 @@ body{
   .background{
     width: 75%;
   }
->>>>>>> upstream/master
 }
