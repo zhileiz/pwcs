@@ -11,17 +11,39 @@ body{
   position: absolute;
   top:0px;
   bottom: 0px;
-  left:60%;
+  left:65%;
   right:-20%;
   background-image: url("../../../assets/images/backgrounds/grey-paper.png");
   transform: skew(-20deg);
 }
-.picture {
-  position: absolute;
-  top: -20%;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+
+.bg-img-wrapper{
   z-index: -1;
-  background-image: url("../../../assets/images/backgrounds/upenn.png");
+  overflow: hidden;
+  height: 100%;
+}
+
+.background{
+  z-index: -1;
+  margin-top: -10%;
+  min-height: 125%;
+  width: 75%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .background{
+    width: 81%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .background{
+    width: 78%;
+  }
+}
+
+@media (min-width: 1400px){
+  .background{
+    width: 75%;
+  }
 }
