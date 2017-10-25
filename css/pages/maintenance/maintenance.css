@@ -1,0 +1,18 @@
+html{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.trapezoid{
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left:65%;
+  right:-20%;
+  background-image: url("../../../assets/images/backgrounds/grey-paper.png");
+  transform: skew(-15deg);
+}
