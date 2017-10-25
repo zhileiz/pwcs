@@ -11,8 +11,8 @@ body{
   position: absolute;
   top:0px;
   bottom: 0px;
-  left:65%;
+  left:60%;
   right:-20%;
   background-image: url("../../../assets/images/backgrounds/grey-paper.png");
-  transform: skew(-15deg);
+  transform: skew(-20deg);
 }
