@@ -66,11 +66,14 @@ body{
 }
 
 .logo{
-  position: relative;
-  top: 25%;
-  right: 3%;
+  position: absolute;
+  top: 30%;
+  right: 5%;
   height: 50%;
   float: right;
+  max-width: 300px;
+  max-height: 200px;
+  opacity: .9;
 }
 
 .bg-img-wrapper{
