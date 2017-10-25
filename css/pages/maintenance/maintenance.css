@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+
 html{
   height: 100%;
   width: 100%;
@@ -38,15 +46,14 @@ body{
 
 .title{
   font-size: 360%;
-  font-family: Garamond, serif;
-  font-weight: 550;
+  font-family: ThomasMag-reg;
 }
 
 .text{
   padding-top: 1%;
   font-size: 150%;
   color: rgba(255, 255, 255, 0.7);
-  font-family: sans-serif;
+  font-family: ThomasMag-reg;
 }
 
 
