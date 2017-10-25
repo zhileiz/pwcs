@@ -17,10 +17,61 @@ body{
   transform: skew(-20deg);
 }
 
+
+.floating_rec{
+  position: absolute;
+  top: 15%;
+  height: 70%;
+  width: 100%;
+  background-color: rgba(120, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.content{
+  position: relative;
+  top: 25%;
+  left: 5%;
+  color: white;
+  text-align: left;
+  width: 70%;
+}
+
+.title{
+  font-size: 360%;
+  font-family: Garamond, serif;
+  font-weight: 550;
+}
+
+.text{
+  padding-top: 1%;
+  font-size: 150%;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: sans-serif;
+}
+
+
+.icons {
+  padding-top: 3%;
+}
+
+.icons i + i {
+  padding-left: 5%;
+}
+
+.logo{
+  position: relative;
+  top: 25%;
+  right: 3%;
+  height: 50%;
+  float: right;
+}
+
 .bg-img-wrapper{
   z-index: -1;
   overflow: hidden;
   height: 100%;
+  background-image: url("../../../assets/images/backgrounds/upenn.png");
+  background-size: cover;
 }
 
 .background{
