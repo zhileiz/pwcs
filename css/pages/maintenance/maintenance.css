@@ -16,3 +16,12 @@ body{
   background-image: url("../../../assets/images/backgrounds/grey-paper.png");
   transform: skew(-15deg);
 }
+.picture {
+  position: absolute;
+  top: -20%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  background-image: url("../../../assets/images/backgrounds/upenn.png");
+}
