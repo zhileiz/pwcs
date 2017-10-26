@@ -1,3 +1,7 @@
+/** * * * * * * * * **/
+/* Global CSS Content */
+/** * * * * * * * * **/
+
 @font-face {
   font-family: "ThomasMag-reg";
   src: url("../../../assets/fonts/Thomas Mag Regular.otf");
@@ -5,17 +9,21 @@
   url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
 }
 
-
 html{
   height: 100%;
   width: 100%;
   overflow-x: hidden;
 }
+
 body{
   height: 100%;
   width: 100%;
   min-width: 1000px;
 }
+
+/** * * * * * * * * **/
+/* Default CSS Content*/
+/** * * * * * * * * **/
 
 .trapezoid{
   position: absolute;
@@ -26,7 +34,6 @@ body{
   background-image: url("../../../assets/images/backgrounds/grey-paper.png");
   transform: skew(-20deg);
 }
-
 
 .floating_rec{
   position: absolute;
@@ -60,7 +67,6 @@ body{
   color: rgba(255, 255, 255, 0.7);
   font-family: ThomasMag-reg;
 }
-
 
 .icons {
   padding-top: 3%;
@@ -97,6 +103,10 @@ body{
   min-width: 1000px;
 }
 
+/** * * * * * * * * * * * * * * * * **/
+/* lg & xl Screen Sizes Configuration*/
+/** * * * * * * * * * * * * * * * * **/
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .background{
     width: 81%;
@@ -119,4 +129,38 @@ body{
   .background{
     width: 75%;
   }
+}
+
+/** * * * * * * * * * * * * * * * * **/
+/* md & sm Screen Sizes Configuration*/
+/* md = [768 - 992), sm = [576 - 768)*/
+/* @@Todo by @Tracy Yan*/
+/** * * * * * * * * * * * * * * * * **/
+@media (min-width: 576px) and (max-width: 991px) {
+
+  /* CSS Starts Here */
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* CSS Starts Here */
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* CSS Starts Here */
+  
+}
+
+/** * * * * * * * * * * * * * * * * **/
+/* xs Screen Sizes Configuration*/
+/* xs = [320 - 576) */
+/* @@Todo by @Tony Zheng */
+/** * * * * * * * * * * * * * * * * **/
+@media (max-width: 575px) {
+
+  /* CSS Starts Here */
+
 }
