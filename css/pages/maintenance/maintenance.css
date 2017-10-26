@@ -103,6 +103,33 @@ body{
   min-width: 1000px;
 }
 
+#mc_embed_signup{
+  background:none;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width: 40%;
+}
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    min-width: 100px;
+    text-indent: 2%;
+    background: none;
+    border-radius: 0px;
+}
+#mc_embed_signup .mc-field-group {
+    clear: left;
+    /* position: relative; */
+    width: 100%;
+    padding-bottom: 0%;
+    /* min-height: 50px; */
+}
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0px;
+}
+
 /** * * * * * * * * * * * * * * * * **/
 /* lg & xl Screen Sizes Configuration*/
 /** * * * * * * * * * * * * * * * * **/
@@ -151,7 +178,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
 
   /* CSS Starts Here */
-  
+
 }
 
 /** * * * * * * * * * * * * * * * * **/
