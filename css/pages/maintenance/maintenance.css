@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+
 html{
   height: 100%;
   width: 100%;
@@ -42,15 +50,14 @@ body{
 
 .title{
   font-size: 360%;
-  font-family: Garamond, serif;
-  font-weight: 550;
+  font-family: ThomasMag-reg;
 }
 
 .text{
   padding-top: 1%;
   font-size: 150%;
   color: rgba(255, 255, 255, 0.7);
-  font-family: sans-serif;
+  font-family: ThomasMag-reg;
 }
 
 
@@ -63,11 +70,14 @@ body{
 }
 
 .logo{
-  position: fixed;
-  top: 25%;
-  right: 3%;
+  position: absolute;
+  top: 30%;
+  right: 5%;
   height: 50%;
   float: right;
+  max-width: 300px;
+  max-height: 200px;
+  opacity: .9;
 }
 
 .bg-img-wrapper{
