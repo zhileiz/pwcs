@@ -6,7 +6,9 @@ html{
 body{
   height: 100%;
   width: 100%;
+  min-width: 1000px;
 }
+
 .trapezoid{
   position: absolute;
   top:0px;
@@ -20,17 +22,19 @@ body{
 
 .floating_rec{
   position: absolute;
-  top: 15%;
+  margin-top: 10%;
   height: 70%;
+  min-height: 300px;
   width: 100%;
+  min-width: 1000px;
   background-color: rgba(120, 0, 0, 0.5);
   z-index: 10;
 }
 
 .content{
   position: relative;
-  top: 25%;
-  left: 5%;
+  margin-top: 7%;
+  margin-left: 5%;
   color: white;
   text-align: left;
   width: 70%;
@@ -59,7 +63,7 @@ body{
 }
 
 .logo{
-  position: relative;
+  position: fixed;
   top: 25%;
   right: 3%;
   height: 50%;
