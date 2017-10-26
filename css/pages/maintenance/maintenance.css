@@ -21,7 +21,7 @@ body{
   position: absolute;
   top:0px;
   bottom: 0px;
-  left:65%;
+  padding-left:55%;
   right:-20%;
   background-image: url("../../../assets/images/backgrounds/grey-paper.png");
   transform: skew(-20deg);
@@ -46,6 +46,7 @@ body{
   color: white;
   text-align: left;
   width: 70%;
+  min-width: 800px;
 }
 
 .title{
@@ -93,11 +94,18 @@ body{
   margin-top: -10%;
   min-height: 125%;
   width: 75%;
+  min-width: 1000px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .background{
     width: 81%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+  .title{
+    font-size: 300%;
   }
 }
 
