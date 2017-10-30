@@ -13,12 +13,12 @@ html{
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body{
   height: 100%;
   width: 100%;
-  min-width: 1000px;
 }
 
 /** * * * * * * * * **/
@@ -54,16 +54,17 @@ body{
   text-align: left;
   width: 70%;
   min-width: 800px;
+  font-size: 360%;
 }
 
 .title{
-  font-size: 360%;
+  font-size: 100%;
   font-family: ThomasMag-reg;
 }
 
 .text{
   padding-top: 1%;
-  font-size: 150%;
+  font-size: 42%;
   color: rgba(255, 255, 255, 0.7);
   font-family: ThomasMag-reg;
 }
@@ -113,8 +114,8 @@ body{
   }
 }
 
-@media (min-width: 0px) and (max-width: 1280px) {
-  .title{
+@media (min-width: 0px) and (max-width: 1200px) {
+  .content{
     font-size: 300%;
   }
 }
@@ -151,7 +152,7 @@ body{
 @media (min-width: 768px) and (max-width: 991px) {
 
   /* CSS Starts Here */
-  
+
 }
 
 /** * * * * * * * * * * * * * * * * **/
@@ -161,6 +162,138 @@ body{
 /** * * * * * * * * * * * * * * * * **/
 @media (max-width: 575px) {
 
-  /* CSS Starts Here */
+  body{
+    min-height: 700px;
+  }
 
+  .floating_rec{
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    height: 100%;
+    min-height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    min-width: 200px;
+    background-color: rgba(120, 0, 0, 0.5);
+    z-index: 10;
+    min-height: 570px;
+  }
+
+  .trapezoid{
+      position: absolute;
+      padding-left: 0px;
+      bottom: 0%;
+      top: auto;
+      left:0px;
+      right:0px;
+      height: 220px;
+      background-image: url("../../../assets/images/backgrounds/grey-paper.png");
+      transform: skew(0deg);
+  }
+
+  .background{
+    margin-top: -10%;
+    min-height: 125%;
+    width: 75%;
+    position: absolute;
+  }
+
+  .bg-img-wrapper{
+    overflow: hidden;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 700px;
+    background-size: 80% 150%;
+    background-position: -100% -100px;
+  }
+
+  .content{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 0%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    font-size: 400%;
+  }
+
+  .text{
+    font-size: 30%;
+  }
+
+  .logo{
+    position: absolute;
+    float: bottom;
+    bottom: 2%;
+    top: auto;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    height: auto;
+    opacity: .9;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+  .content{
+    font-size: 340%;
+  }
+
+  .floating_rec{
+    min-height: 500px;
+  }
+
+}
+
+@media (min-width: 401px) and (max-width: 440px) {
+  .trapezoid{
+    height: 200px;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 400px) {
+  .content{
+    font-size: 280%;
+  }
+
+  .floating_rec{
+    min-height: 400px;
+  }
+
+  .trapezoid{
+    height: 180px;
+  }
+}
+
+@media (min-width: 271px) and (max-width: 320px) {
+  .content{
+    font-size: 250%;
+  }
+
+  .floating_rec{
+    min-height: 350px;
+  }
+
+  .trapezoid{
+    height: 140px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 270px) {
+  .content{
+    font-size: 200%;
+  }
+
+  .floating_rec{
+    min-height: 280px;
+  }
+
+  .trapezoid{
+    height: 120px;
+  }
 }
