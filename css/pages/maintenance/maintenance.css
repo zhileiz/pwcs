@@ -162,7 +162,7 @@ body{
 /** * * * * * * * * * * * * * * * * **/
 @media (max-width: 575px) {
 
-  body{
+  html{
     min-height: 700px;
   }
 
