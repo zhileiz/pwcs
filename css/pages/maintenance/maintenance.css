@@ -76,6 +76,11 @@ body{
   padding-left: 5%;
 }
 
+i:hover{
+  color: white;
+  cursor: pointer;
+}
+
 .logo{
   position: absolute;
   top: 25%;
