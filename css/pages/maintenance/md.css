@@ -5,8 +5,10 @@
 /** * * * * * * * * * * * * * * * * **/
 @media (min-width: 576px) and (max-width: 991px) {
   html,body{
-    overflow: hidden;
-    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden!important;
+    overflow-x: hidden!important;
   }
   .floating_rec{
     height: 76%;
