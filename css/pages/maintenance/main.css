@@ -1,0 +1,111 @@
+/** * * * * * * * * **/
+/* Global CSS Content */
+/** * * * * * * * * **/
+
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/** * * * * * * * * **/
+/* Default CSS Content*/
+/** * * * * * * * * **/
+
+.trapezoid{
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  padding-left:55%;
+  right:-20%;
+  background-image: url("../../../assets/images/backgrounds/grey-paper.png");
+  transform: skew(-20deg);
+}
+
+.floating_rec{
+  position: absolute;
+  margin-top: 10%;
+  height: 70%;
+  min-height: 300px;
+  width: 100%;
+  min-width: 1000px;
+  background-color: rgba(120, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.content{
+  position: relative;
+  margin-top: 7%;
+  margin-left: 5%;
+  color: white;
+  text-align: left;
+  width: 70%;
+  min-width: 800px;
+  font-size: 360%;
+}
+
+.title{
+  font-size: 100%;
+  font-family: ThomasMag-reg;
+}
+
+.text{
+  padding-top: 1%;
+  font-size: 42%;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: ThomasMag-reg;
+}
+
+.icons {
+  padding-top: 3%;
+}
+
+.icons i + i {
+  padding-left: 5%;
+}
+
+i:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.logo{
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  height: 50%;
+  float: right;
+  max-width: 300px;
+  max-height: 200px;
+  opacity: .9;
+}
+
+.bg-img-wrapper{
+  z-index: -1;
+  overflow: hidden;
+  height: 100%;
+  background-image: url("../../../assets/images/backgrounds/upenn.png");
+  background-size: cover;
+}
+
+.background{
+  z-index: -1;
+  margin-top: -10%;
+  min-height: 125%;
+  width: 75%;
+  min-width: 1000px;
+}
