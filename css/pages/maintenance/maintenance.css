@@ -224,6 +224,10 @@ i:hover{
 /** * * * * * * * * * * * * * * * * **/
 @media (max-width: 575px) {
 
+  html{
+    height: 100%;
+  }
+
   body{
     height:100%;
     overflow: hidden;
