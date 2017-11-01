@@ -169,20 +169,50 @@ i:hover{
 /* @@Todo by @Tracy Yan*/
 /** * * * * * * * * * * * * * * * * **/
 @media (min-width: 576px) and (max-width: 991px) {
-
-  /* CSS Starts Here */
+  .floating_rec{
+    height: 80%;
+    min-width: 576px;
+  }
+  .content{
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 12%;
+    width: 100%;
+    min-width: 576px;
+  }
+  .title{
+    text-align: center;
+    font-size: 200%;
+    min-width: 576px;
+  }
+  .text{
+    text-align: center;
+    font-size: 100%;
+    min-width: 576px;
+  }
+  .logo{
+    height: 25%;
+    top: 60%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  .background{
+    margin-left: -40%;
+  }
 
-  /* CSS Starts Here */
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-  /* CSS Starts Here */
+  .background{
+    margin-left: -20%;
+  }
 
 }
 
