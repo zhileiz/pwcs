@@ -29,8 +29,12 @@
     <link rel="stylesheet" href="../css/global/bootstrap.min.css">
     <link rel="stylesheet" href="../css/global/icofont.css">
     <link rel="stylesheet" href="../css/global/navbar.css">
+    <link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <!-- Page Style Sheets -->
-    <link rel="stylesheet" href="../css/pages/maintenance/maintenance.css"> <!-- 1200px+ -->
+    <link rel="stylesheet" href="../css/pages/maintenance/main.css"> <!-- 1200px+ -->
+    <link rel="stylesheet" href="../css/pages/maintenance/lg+xl.css"> <!-- 992+ -->
+    <link rel="stylesheet" href="../css/pages/maintenance/md.css"> <!-- 576px-991px -->
+    <link rel="stylesheet" href="../css/pages/maintenance/sm+xs.css"> <!-- 575px- -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108713232-1"></script>
     <script>
@@ -55,6 +59,7 @@
             <i class="icofont icofont-social-facebook"></i>
             <i class="icofont icofont-social-wechat"></i>
             <i class="icofont icofont-social-instagram"></i>
+            <i class="icofont icofont-email"></i>
           </div>
         </div>
       </div>
@@ -69,5 +74,19 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script>
+            var body = document.body;
+            var freezeVp = function(e) {
+                e.preventDefault();
+            };
+            function toggleViewportScrolling (bool) {
+                if (bool === true) {
+                    body.addEventListener("touchmove", freezeVp, false);
+                } else {
+                    body.removeEventListener("touchmove", freezeVp, false);
+                }
+            }
+            toggleViewportScrolling(true);
+    </script>
   </body>
 </html>

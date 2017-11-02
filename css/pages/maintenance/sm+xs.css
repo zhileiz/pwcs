@@ -1,0 +1,115 @@
+/** * * * * * * * * * * * * * * * * **/
+/* xs Screen Sizes Configuration*/
+/* xs = [320 - 576) */
+/* @@Todo by @Tony Zheng */
+/** * * * * * * * * * * * * * * * * **/
+@media (max-width: 575px) {
+
+  html, body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overflow: hidden;
+  }
+
+  .floating_rec{
+    position: absolute;
+    margin-top: 0px;
+    top: 0px;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    min-width: 200px;
+    background-color: rgba(120, 0, 0, 0.5);
+    z-index: 10;
+  }
+
+  .trapezoid{
+      position: absolute;
+      top:auto;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      height: 25%;
+      background-image: url("../../../assets/images/backgrounds/grey-paper.png");
+      transform: skew(0deg);
+  }
+
+  .background{
+    margin-top: -10%;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+  }
+
+  .bg-img-wrapper{
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+    background: none;
+  }
+
+  .content{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 0%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+    font-size: 400%;
+  }
+
+  .text{
+    font-size: 30%;
+  }
+
+  .logo{
+    position: absolute;
+    float: bottom;
+    bottom: 3%;
+    top: auto;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    height: auto;
+    opacity: .9;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .title{
+    margin-top: 20%;
+    font-size: 45px;
+  }
+  .text{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .icons{
+    margin-top: 5%;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .title{
+    margin-top: 20%;
+    font-size: 60px;
+  }
+  .text{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .icons{
+    margin-top: 5%;
+    font-size: 35px;
+  }
+  .logo{
+    bottom: 3%;
+  }
+}

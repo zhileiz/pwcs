@@ -1,0 +1,27 @@
+/** * * * * * * * * * * * * * * * * **/
+/* lg & xl Screen Sizes Configuration*/
+/** * * * * * * * * * * * * * * * * **/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .background{
+    width: 81%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1200px) {
+  .content{
+    font-size: 300%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .background{
+    width: 78%;
+  }
+}
+
+@media (min-width: 1400px){
+  .background{
+    width: 75%;
+  }
+}

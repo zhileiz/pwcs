@@ -1,0 +1,86 @@
+/** * * * * * * * * * * * * * * * * **/
+/* md & sm Screen Sizes Configuration*/
+/* md = [768 - 992), sm = [576 - 768)*/
+/* @@Todo by @Tracy Yan*/
+/** * * * * * * * * * * * * * * * * **/
+@media (min-width: 576px) and (max-width: 991px) {
+  html,body{
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden!important;
+    overflow-x: hidden!important;
+  }
+  .floating_rec{
+    height: 76%;
+    width: 100%;
+    margin-top: 12%;
+    min-width: 576px;
+    text-align: center;
+  }
+  .trapezoid{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    padding-left:55%;
+    right:-20%;
+    background-image: url("../../../assets/images/backgrounds/grey-paper.png");
+    transform: skew(-10deg);
+  }
+  .content{
+    margin-top: 6%;
+    width: 90%;
+    min-width: 576px;
+  }
+  .title{
+    text-align: center;
+    font-size: 65px;
+    width: 100%;
+  }
+  .text{
+    text-align: center;
+    font-size: 30px;
+    min-width: 576px;
+    margin: 3% 0%;
+    width: 100%;
+  }
+  .logo{
+    height: 25%;
+    top: 75%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 120px;
+  }
+  .icons{
+    margin-top: 1%;
+    font-size: 40px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .background{
+    margin-left: -40%;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .background{
+    margin-left: -20%;
+  }
+  .content{
+    margin-top: 10%;
+  }
+  .text{
+    margin:3% 0%;
+  }
+  .logo{
+    max-width: 250px;
+    max-height: 150px;
+  }
+
+}
