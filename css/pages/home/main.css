@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*
+=============
+Section 1 CSS
+=============
+*/
+
+.section-1 {
+  height: 50%;
+}
+
+.background-white {
+  background: white;
+}
+
+.background-crimson {
+  background: crimson;
+}
+
+.section-1-left-middle-content {
+  width: 70%;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*
+=============
+Section 2 CSS
+=============
+*/
+.section-2 {
+    margin: 30px 0px;
+}
+
+.vertical-text{
+  text-align:right;
+  font-size: 30px;
+	color:crimson;
+  position: absolute;
+	white-space: nowrap;
+  right: 0px;
+  top: -20px;
+  transform: rotate(270deg);
+  transform-origin:bottom right;
+}
+
+.top-buffer{
+  margin-top: 20px;
+}
+
+/*
+=============
+Section 3 CSS
+=============
+*/
+.section-3{
+  height: 50%;
+  background-color: black;
+}
+.panel-title-card{
+  height: 100%;
+  width: 100%;
+  background: blue;
+}
