@@ -1,0 +1,63 @@
+html{
+  height: 100%;
+  width: 100%;
+  overflow-x:scroll;
+  overflow-y: scroll;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+.whitebox{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+}
+.recap{
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+}
+.question{
+  color: red;
+  padding-bottom: 30px;
+}
+.whycome{
+  text-align: center;
+  padding-top: 60px;
+  color: rgba(160, 160, 160, 0.5);
+}
+.redbox{
+  background-color: rgba(200, 0, 0, 0.8);
+  padding: 10%;
+}
+.blackbox{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10%;
+}
+.strip{
+  padding-bottom: 15px;
+}
+.number{
+  color: white;
+  font-size: 50px;
+}
+.photos{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.picture{
+  width: 100%;
+}
+.bg{
+  max-width: 100%;
+}
+p{
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+}
