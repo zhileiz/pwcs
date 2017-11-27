@@ -1,0 +1,88 @@
+.pwcs-navbar {
+  height: 100%;
+  background: url("../../assets/images/backgrounds/temp2.png");
+  background-position: left top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header-left-box {
+  width: 50%;
+  height: 40%;
+  border: 25px solid crimson;
+  position: absolute;
+  top: 30%;
+  left: -25%;
+  overflow: hidden;
+}
+
+.header-caption {
+  color: white;
+  font-family: avn-demi;
+  font-size: 55px;
+  width: 70%;
+  position: absolute;
+  text-align: left;
+  top: 18%;
+  left: 8%;
+}
+
+.header-sub-caption {
+  color: #EAEAEA;
+  font-family: avn-regular;
+  font-size: 20px;
+  position: absolute;
+  text-align: right;
+  top: 62%;
+  left: 27%;
+}
+
+.extended-box{
+  height: 15%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 0px;
+}
+
+.extended-action{
+  font-size: 40px;
+  padding: 5%;
+  width: 100%;
+  font-family: avn-regular;
+  text-align: center;
+  color: white;
+}
+
+.extended-button{
+  font-size: 45px;
+  padding-top: 2%;
+  width: 100%;
+  font-family: avn-regular;
+  text-align: center;
+  color: white;
+}
+
+.navigation-button{
+  color: white;
+  font-family: avn-regular;
+  font-size: 50px;
+  position: absolute;
+  text-align: right;
+  top: 5%;
+  right: 5%;
+}
+
+.header-v-caption{
+  color: crimson;
+  font-family: avn-demi;
+  position: absolute;
+  text-align:right;
+  font-size: 18px;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  right: 6%;
+  top: 15%;
+  transform: rotate(270deg);
+  transform-origin:bottom right;
+}

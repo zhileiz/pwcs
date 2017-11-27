@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "avn-bold";
+  src: url("../../../assets/fonts/AvenirNext-Bold.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-bold-i";
+  src: url("../../../assets/fonts/AvenirNext-BoldItalic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-demi";
+  src: url("../../../assets/fonts/AvenirNext-DemiBold.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-DemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-demi-i";
+  src: url("../../../assets/fonts/AvenirNext-DemiBoldItalic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-DemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-heavy";
+  src: url("../../../assets/fonts/AvenirNext-Heavy.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-heavy-i";
+  src: url("../../../assets/fonts/AvenirNex-HeavyItalic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-HeavyItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-i";
+  src: url("../../../assets/fonts/AvenirNext-Italic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-medium";
+  src: url("../../../assets/fonts/AvenirNext-Medium.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-medium-i";
+  src: url("../../../assets/fonts/AvenirNext-MediumItalic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-regular";
+  src: url("../../../assets/fonts/AvenirNext-Regular.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-ultra";
+  src: url("../../../assets/fonts/AvenirNext-Ultralight.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-Ultralight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "avn-ultra-i";
+  src: url("../../../assets/fonts/AvenirNext-UltralightItalic.ttf");
+  src:
+  url("../../assets/fonts/AvenirNext-UltralightItalic.ttf") format("truetype");
+}

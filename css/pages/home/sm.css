@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .vertical-text {
+    text-align:left;
+    font-size: 30px;
+    color:crimson;
+    position: relative;
+    white-space: nowrap;
+    right: 0px;
+    top: 0px;
+    transform: none;
+    transform-origin: none;
+  }
+
+  .sm-hide {
+    display: none;
+  }
+
+  .sm-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+  }
+
+  .top-buffer-2 {
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+  }
+
+  .xs-sm-only {
+    display: block;
+  }
+
+  .section-3-sm {
+    background: black;
+  }
+
+}

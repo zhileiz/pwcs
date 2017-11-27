@@ -1,0 +1,10 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .extended-action{
+    font-size: 30px;
+    padding-top: 10%;
+    width: 100%;
+    font-family: avn-regular;
+    text-align: center;
+    color: white;
+  }
+}

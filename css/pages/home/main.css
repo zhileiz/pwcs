@@ -17,7 +17,17 @@ Section 1 CSS
 */
 
 .section-1 {
-  height: 50%;
+  height: 100%;
+}
+
+.caller-h2 {
+  font-size: 50px;
+  font-family: avn-demi;
+}
+
+.caller-h5 {
+  font-size: 20px;
+  font-family: avn-regular;
 }
 
 .background-white {
@@ -29,6 +39,8 @@ Section 1 CSS
 }
 
 .section-1-left-middle-content {
+  color: crimson;
+  font-family: avn-regular;
   width: 70%;
   position: absolute;
   text-align: right;
@@ -37,6 +49,31 @@ Section 1 CSS
   transform: translate(-50%, -50%);
 }
 
+.section-1-left-bottom-content {
+  font-family: avn-demi;
+  width: 70%;
+  position: absolute;
+  text-align: center;
+  bottom: 5%;
+  left: 20%;
+}
+
+#quoter {
+  font-size: 20px;
+  color: black;
+  font-family: avn-bold;
+  top:60%;
+}
+
+.section-1-right-middle-content {
+  color: white;
+  width: 70%;
+  position: absolute;
+  text-align: left;
+  top: 45%;
+  left: 50%;
+  transform: translate(-60%, -30%);
+}
 
 /*
 =============
@@ -63,17 +100,36 @@ Section 2 CSS
   margin-top: 20px;
 }
 
+.top-buffer-2 {
+  margin-top: 20px;
+}
+
+.xs-sm-only{
+  display: none;
+}
+
 /*
 =============
 Section 3 CSS
 =============
 */
 .section-3{
-  height: 50%;
+  height: 90%;
   background-color: black;
 }
 .panel-title-card{
   height: 100%;
   width: 100%;
   background: blue;
+}
+.sp-slim-pd {
+  padding: 5px 3px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.min-padding {
+  padding: 5px;
 }

@@ -28,7 +28,10 @@
     <!-- Global Style Sheets -->
     <link rel="stylesheet" href="../css/global/bootstrap.min.css">
     <link rel="stylesheet" href="../css/global/icofont.css">
-    <link rel="stylesheet" href="../css/global/navbar.css">
+    <link rel="stylesheet" href="../css/global/global.css">
+    <!-- Navbar Style Sheets -->
+    <link rel="stylesheet" href="../css/navbar/main.css">
+    <link rel="stylesheet" href="../css/navbar/md.css">
     <!-- Page Style Sheets -->
     <link rel="stylesheet" href="../css/pages/home/main.css"> <!-- 1200px+ -->
     <link rel="stylesheet" href="../css/pages/home/xl.css"> <!-- 1200px+ -->
@@ -47,56 +50,104 @@
 
   <body>
     <!-- ### Section 1 Begins ### -->
-    <div class="row section-1">
+    <div class="row pwcs-navbar" id="header">
+      <div class="col-12">
+        <div class="header-left-box">
+        </div>
+        <div class="header-caption">
+          PENN<br/>
+          WHARTON<br/>
+          CHINA<br/>
+          SUMMIT
+        </div>
+        <div class="header-sub-caption">
+          a summit that<br/>
+          builds the bridge between us
+        </div>
+        <div class="navigation-button">
+          <i class="icofont icofont-people"></i>
+        </div>
+        <div class="header-v-caption">
+          MARCH 24TH, 2017 &nbsp&nbsp&nbsp&nbsp PHILADELPHIA, PA.
+        </div>
+        <div class="row extended-box">
+          <div class="col-5 offset-5 background-crimson">
+            <div class="extended-action"> REGISTER TODAY </div>
+          </div>
+          <div class="col-2 background-white extended-button"><i class="icofont icofont-people" style="color:black;"></i></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ### Section 1 Begins ### -->
+    <div class="row section-1" id="section-1">
       <div class="col-5 background-white">
         <div class="section-1-left-middle-content">
-          <h2>To See</h2>
-          <h2>To Bridge</h2>
-          <h2>To Prosper</h2>
+          <h2 class="caller-h2">To See</h2>
+          <h2 class="caller-h2">To Bridge</h2>
+          <h2 class="caller-h2">To Prosper</h2>
+        </div>
+        <div class="section-1-left-middle-content" id="quoter">
+          <h5 class="caller-h5">-- Mr. Smith</h5>
+          <h5 class="caller-h5">Dean of Wharton</h5>
+        </div>
+        <div class="section-1-left-bottom-content">
+          <h5 class="caller-h5">2017 MEDIA GALLARY <i class="icofont icofont-play-alt-2"></i></h5>
         </div>
       </div>
       <div class="col-7 background-crimson">
-
+        <div class="section-1-right-middle-content">
+          <strong>PWCS 2018</strong>
+          <p>The World to China: Challenges in Supply-Side Reform.<br/>
+          China to the World: Integration in Globalisation Strategy.</p>
+        </div>
       </div>
     </div>
     <!-- (Section 1 Ends) -->
 
     <!-- ### Section 2 Begins ### -->
     <div class="section-2">
-      <div class="row">
-        <div class="col-lg-1">
+      <div class="row sm-container xl-container">
+        <div class="col-md-1 col-12">
           <div class="vertical-text">
             Our Speakers
           </div>
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/0.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/1.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/2.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/3.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/4.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 offset-lg-1 top-buffer">
+        <div class="col-md-2 col-4 offset-md-1 top-buffer ">
           <img src="../assets/images/portrait/5.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/6.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/7.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 col-4 top-buffer min-padding">
           <img src="../assets/images/portrait/8.png" width="100%" height="100%">
         </div>
-        <div class="col-lg-2 top-buffer">
+        <div class="col-md-2 sm-hide top-buffer min-padding">
           <img src="../assets/images/portrait/9.png" width="100%" height="100%">
         </div>
       </div>
@@ -104,36 +155,58 @@
     <!-- (Section 2 Ends) -->
 
     <!-- ### Section 3 Begins ### -->
-    <div class="row section-3">
-      <div class="col-lg-1">
+    <div class="row section-3 sm-hide">
+      <div class="col-md-1 col-12 top-buffer-2">
         <div class="vertical-text">
-          Our Speakers<br/>
           7 Panels of Your Choice
         </div>
       </div>
-      <div class="col-lg-10">
+      <div class="col-md-10 col-12">
         <div class="row" style="height: 100%; padding-bottom:30px;">
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 col-12 top-buffer-2 no-padding">
             <div class="panel-title-card">
 
             </div>
           </div>
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 top-buffer-2 col-12 no-padding">
             <img src="../assets/images/portrait/1.png" width="100%" height="100%">
           </div>
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 col-12 top-buffer-2 no-padding">
             <img src="../assets/images/portrait/2.png" width="100%" height="100%">
           </div>
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 col-12 top-buffer-2 no-padding">
             <img src="../assets/images/portrait/3.png" width="100%" height="100%">
           </div>
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 col-12 top-buffer-2 no-padding">
             <img src="../assets/images/portrait/4.png" width="100%" height="100%">
           </div>
-          <div class="col-lg-2 top-buffer">
+          <div class="col-md-2 col-12 top-buffer-2 no-padding">
             <img src="../assets/images/portrait/4.png" width="100%" height="100%">
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="row section-3-sm xs-sm-only sm-container xl-container" style="padding: 20px 20px;">
+      <div class="col-12 no-padding" style="padding-bottom: 20px;">
+        <div class="vertical-text">
+          7 Panels of Your Choice
+        </div>
+      </div>
+      <div class="top-buffer-2 col-12 no-padding">
+        <img src="../assets/images/portrait/1.png" width="100%" height="100%">
+      </div>
+      <div class="top-buffer-2 col-12 no-padding">
+        <img src="../assets/images/portrait/2.png" width="100%" height="100%">
+      </div>
+      <div class="top-buffer-2 col-12 no-padding">
+        <img src="../assets/images/portrait/3.png" width="100%" height="100%">
+      </div>
+      <div class="top-buffer-2 col-12 no-padding">
+        <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+      </div>
+      <div class="top-buffer-2 col-12 no-padding">
+        <img src="../assets/images/portrait/4.png" width="100%" height="100%">
       </div>
     </div>
     <!-- (Section 3 Ends) -->
