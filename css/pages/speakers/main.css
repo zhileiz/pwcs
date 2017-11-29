@@ -1,14 +1,11 @@
 html{
   height: 100%;
   width: 100%;
-  overflow-x:scroll;
-  overflow-y: scroll;
 }
 
 body{
   height: 100%;
   width: 100%;
-  overflow: scroll;
 }
 .whitebox{
   padding-left: 10%;
@@ -29,6 +26,7 @@ body{
   text-align: center;
   padding-top: 60px;
   color: rgba(160, 160, 160, 0.5);
+  font-size: 80px;
 }
 .redbox{
   background-color: rgba(200, 0, 0, 0.8);
@@ -45,12 +43,12 @@ body{
   color: white;
   font-size: 50px;
 }
-.photos{
+/*.photos{
   padding-top: 10%;
   padding-bottom: 10%;
   padding-left: 5%;
   padding-right: 5%;
-}
+}*/
 .img-responsive img{
   max-width: 100%;
   max-height: 100%;
@@ -64,4 +62,41 @@ body{
 p{
   font-weight: 100;
   color: rgba(255, 255, 255, 0.5);
+}
+.carousel-item{
+  padding-bottom: 10%;
+}
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+.container{
+  padding-top: 10%;
+}
+.carousel-item{
+  margin-bottom: 10%;
+}
+.my-icon-next{
+  content: url("../../../assets/images/others/next-icon.png") !IMPORTANT;
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  width: 40%;
+}
+.my-icon-prev{
+  content: url("../../../assets/images/others/prev-icon.png") !IMPORTANT;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  width: 40%;
+}
+.carousel-control-next{
+  max-width: 10%;
+}
+.carousel-control-prev{
+  max-width: 10%;
 }
