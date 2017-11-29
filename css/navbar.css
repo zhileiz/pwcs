@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+.menu-button{
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  z-index: 1;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(30, 30, 30);
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 9px;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-8px, 8px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.register-button{
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+  width: 15%;
+  color: white;
+  padding: 1.5% 0;
+  text-align: center;
+  font-size: 200%;
+  position: absolute;
+  left: 23.7%;
+  top: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-title{
+  color: white;
+  font-size: 700%;
+  position: absolute;
+  top:15%;
+  left: 18%;
+  font-weight: bold;
+}
+
+.slogan{
+  color: white;
+  font-size: 150%;
+  position: absolute;
+  top: 85%;
+  left: 2%;
+  opacity: 0.5;
+}
+
+.menu-container{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(30, 30, 30);
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgb(60, 60, 60);
+  display: none;
+}
+
+.pages-list{
+  position: absolute;
+  top: 15%;
+  list-style-type: none;
+  left: 55%;
+}
+
+.enumerate{
+  color: red;
+  font-size: 400%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-title{
+    font-size: 600%;
+    position: absolute;
+    top:15%;
+    left:7%;
+  }
+
+  .register-button{
+    border-width: 8px;
+    width: 20%;
+    padding: 1.5% 0;
+    font-size: 150%;
+    position: absolute;
+    left: 18%;
+    top: 55%;
+  }
+
+  .slogan{
+    font-size: 120%;
+  }
+
+  .pages-list{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+  }
+
+  .enumerate{
+    font-size: 350%;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu-title{
+    font-size: 450%;
+    position: absolute;
+    top:15%;
+    left:7%;
+  }
+
+  .register-button{
+    border-width: 8px;
+    width: 20%;
+    padding: 1.5% 0;
+    font-size: 100%;
+    position: absolute;
+    left: 18%;
+    top: 55%;
+  }
+
+  .slogan{
+    font-size: 100%;
+  }
+
+  .pages-list{
+    position: absolute;
+    top: 15%;
+    left: 48%;
+  }
+
+  .enumerate{
+    font-size: 250%;
+  }
+}
+
+@media (max-width: 575px) {
+  .menu-title{
+    font-size: 300%;
+    position: absolute;
+    top:8%;
+    left:15%;
+  }
+
+  .register-button{
+    border-width: 8px;
+    width: 50%;
+    padding: 1.5% 0;
+    font-size: 100%;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+  }
+
+  .slogan{
+    font-size: 0%;
+  }
+
+  .pages-list{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    padding-left: 0px;
+  }
+
+  .enumerate{
+    font-size: 200%;
+  }
+}
