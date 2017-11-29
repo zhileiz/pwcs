@@ -32,6 +32,8 @@
     <!-- Navbar Style Sheets -->
     <link rel="stylesheet" href="../css/navbar/main.css">
     <link rel="stylesheet" href="../css/navbar/md.css">
+    <link rel="stylesheet" href="../css/navbar/sm.css">
+    <link rel="stylesheet" href="../css/navbar/xs.css">
     <!-- Page Style Sheets -->
     <link rel="stylesheet" href="../css/pages/home/main.css"> <!-- 1200px+ -->
     <link rel="stylesheet" href="../css/pages/home/xl.css"> <!-- 1200px+ -->
@@ -39,6 +41,11 @@
     <link rel="stylesheet" href="../css/pages/home/md.css"> <!-- 768px - 991px -->
     <link rel="stylesheet" href="../css/pages/home/sm.css"> <!-- 576px - 767px -->
     <link rel="stylesheet" href="../css/pages/home/xs.css"> <!-- 320px - 575p -->
+    <!-- Footer Style Sheets -->
+    <link rel="stylesheet" href="../css/footer/main.css">
+    <link rel="stylesheet" href="../css/footer/md.css">
+    <link rel="stylesheet" href="../css/footer/sm.css">
+    <link rel="stylesheet" href="../css/footer/xs.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108713232-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -65,16 +72,19 @@
           builds the bridge between us
         </div>
         <div class="navigation-button">
-          <i class="icofont icofont-people"></i>
+          <i class="icofont icofont-navigation-menu"></i>
         </div>
-        <div class="header-v-caption">
+        <div class="header-v-caption sm-hide">
           MARCH 24TH, 2017 &nbsp&nbsp&nbsp&nbsp PHILADELPHIA, PA.
         </div>
+        <div class="header-v-caption xs-sm-only">
+          MARCH 24TH, 2017 <br/> PHILADELPHIA, PA.
+        </div>
         <div class="row extended-box">
-          <div class="col-5 offset-5 background-crimson">
+          <div class="col-md-5 offset-md-5 col-8 background-crimson">
             <div class="extended-action"> REGISTER TODAY </div>
           </div>
-          <div class="col-2 background-white extended-button"><i class="icofont icofont-people" style="color:black;"></i></div>
+          <div class="col-4 col-md-2 background-white extended-button"><i class="icofont icofont-bubble-right" style="color:black;"></i></div>
         </div>
       </div>
     </div>
@@ -87,7 +97,7 @@
 
 
     <!-- ### Section 1 Begins ### -->
-    <div class="row section-1" id="section-1">
+    <div class="row section-1 sm-hide" id="section-1">
       <div class="col-5 background-white">
         <div class="section-1-left-middle-content">
           <h2 class="caller-h2">To See</h2>
@@ -110,45 +120,104 @@
         </div>
       </div>
     </div>
+
+
+    <div class="section-1-sm xs-sm-only">
+      <div class="row background-crimson">
+        <div class="col background-crimson">
+          <div class="s1-sm-sp-1">
+            <strong>Theme of PWCS 2018</strong>
+            <p>The World to China: Challenges in Supply-Side Reform.<br/>
+            China to the World: Integration in Globalisation Strategy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col background-crimson">
+          <div class="s1-sm-sp-2">
+            <h2 class="caller-h5">Art, Finance, Tech, Entertainment</h2>
+            <h2 class="caller-h5">Sports, Real Estate, Education, Health</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2 background-crimson">
+        </div>
+        <div class="col-10 background-white">
+          <div class="s1-sm-sp-3">
+            <h2 class="caller-h2">To See, </h2>
+            <h2 class="caller-h2">To Bridge, </h2>
+            <h2 class="caller-h2">To Prosper. </h2>
+          </div>
+          <div class="s1-sm-sp-4">
+            <h5 class="caller-h5">-- Mr. Smith</h5>
+            <h5 class="caller-h5">Dean of Wharton</h5>
+          </div>
+          <div class="s1-sm-sp-5">
+            <h5 class="caller-h5"><i class="icofont icofont-play-alt-2"></i> MEDIA GALLARY </h5>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- (Section 1 Ends) -->
 
     <!-- ### Section 2 Begins ### -->
     <div class="section-2">
-      <div class="row sm-container xl-container">
-        <div class="col-md-1 col-12">
+      <div class="row sm-container-1 xl-container">
+        <div class="col-md-1 col-12 xs-sp-txt-1">
           <div class="vertical-text">
-            Our Speakers
+            OUR&nbsp SPEAKERS
           </div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/0.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/1.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/2.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/3.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
-        <div class="col-md-2 col-4 offset-md-1 top-buffer ">
-          <img src="../assets/images/portrait/5.png" width="100%" height="100%">
-        </div>
-        <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/6.png" width="100%" height="100%">
-        </div>
-        <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/7.png" width="100%" height="100%">
+        <div class="col-md-2 col-4 offset-md-1 top-buffer min-padding">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 col-4 top-buffer min-padding">
-          <img src="../assets/images/portrait/8.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
+        </div>
+        <div class="col-md-2 col-4 top-buffer min-padding">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
+        </div>
+        <div class="col-md-2 col-4 top-buffer min-padding">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
         <div class="col-md-2 sm-hide top-buffer min-padding">
-          <img src="../assets/images/portrait/9.png" width="100%" height="100%">
+          <img src="../assets/images/portrait/0.png" width="100%">
+          <div class="speaker-tag">Kaige Chen</div>
+          <div class="speaker-tag-desc">Famous Director</div>
         </div>
       </div>
     </div>
@@ -157,64 +226,212 @@
     <!-- ### Section 3 Begins ### -->
     <div class="row section-3 sm-hide">
       <div class="col-md-1 col-12 top-buffer-2">
-        <div class="vertical-text">
-          7 Panels of Your Choice
+        <div class="vertical-text" id="sc-3">
+          OUR&nbsp &nbsp PANELS<br/><span>7 Panels of Your Choice</span>
         </div>
       </div>
       <div class="col-md-10 col-12">
         <div class="row" style="height: 100%; padding-bottom:30px;">
-          <div class="col-md-2 col-12 top-buffer-2 no-padding">
-            <div class="panel-title-card">
-
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-finance-tall.png'); background-position: right bottom; background-size: cover;">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> TECHNOLOGY <h2>
             </div>
           </div>
-          <div class="col-md-2 top-buffer-2 col-12 no-padding">
-            <img src="../assets/images/portrait/1.png" width="100%" height="100%">
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-tech-tall.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> FINANCE <h2>
+            </div>
           </div>
-          <div class="col-md-2 col-12 top-buffer-2 no-padding">
-            <img src="../assets/images/portrait/2.png" width="100%" height="100%">
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-art-tall.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> ART <h2>
+            </div>
           </div>
-          <div class="col-md-2 col-12 top-buffer-2 no-padding">
-            <img src="../assets/images/portrait/3.png" width="100%" height="100%">
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-sport-tall.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> SPORTS <h2>
+            </div>
           </div>
-          <div class="col-md-2 col-12 top-buffer-2 no-padding">
-            <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-edu-tall.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> EDUCATION <h2>
+            </div>
           </div>
-          <div class="col-md-2 col-12 top-buffer-2 no-padding">
-            <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+          <div class="top-buffer-2 col-2 no-padding filter-select" style="text-align:right; background: url('../assets/images/panels/panel-real-tall.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+            <div class="vertical-text">
+              <h2 style="font-size: 55px; color: white; font-family: avn-demi;"> REAL ESTATE<h2>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row section-3-sm xs-sm-only sm-container xl-container" style="padding: 20px 20px;">
+    <div class="row section-3-sm xs-sm-only sm-container-2 xl-container" style="padding: 20px 20px;">
       <div class="col-12 no-padding" style="padding-bottom: 20px;">
-        <div class="vertical-text">
+        <div class="vertical-text" id="sc-3-main">
+          Our Panels
+        </div>
+        <div class="vertical-text" id="sc-3-sub">
           7 Panels of Your Choice
         </div>
       </div>
-      <div class="top-buffer-2 col-12 no-padding">
-        <img src="../assets/images/portrait/1.png" width="100%" height="100%">
+      <div class="top-buffer-2 col-12 no-padding s3-sm-sp-1" style="background: url('../assets/images/panels/panel-finance-wide.png'); background-position: right bottom; background-size: cover;">
+        <h2 style="color:white;"> FINANCE </h2>
       </div>
-      <div class="top-buffer-2 col-12 no-padding">
-        <img src="../assets/images/portrait/2.png" width="100%" height="100%">
+      <div class="top-buffer-2 col-12 no-padding s3-sm-sp-1" style="background: url('../assets/images/panels/panel-tech-wide.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <h2 style="color:white;"> TECHNOLOGY </h2>
       </div>
-      <div class="top-buffer-2 col-12 no-padding">
-        <img src="../assets/images/portrait/3.png" width="100%" height="100%">
+      <div class="top-buffer-2 col-12 no-padding s3-sm-sp-1" style="background: url('../assets/images/panels/panel-art-wide.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <h2 style="color:white;"> ARTS </h2>
       </div>
-      <div class="top-buffer-2 col-12 no-padding">
-        <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+      <div class="top-buffer-2 col-12 no-padding s3-sm-sp-1" style="background: url('../assets/images/panels/panel-sport-wide.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <h2 style="color:white;"> SPORTS </h2>
       </div>
-      <div class="top-buffer-2 col-12 no-padding">
-        <img src="../assets/images/portrait/4.png" width="100%" height="100%">
+      <div class="top-buffer-2 col-12 no-padding s3-sm-sp-1" style="background: url('../assets/images/panels/panel-edu-wide.png');background-position: right bottom; background-size: cover; -webkit-filter: grayscale(100%); filter: grayscale(100%);">
+        <h2 style="color:white;"> EDUCATION </h2>
       </div>
     </div>
     <!-- (Section 3 Ends) -->
+
+
+    <!-- (Global Footer: Sponsors) -->
+    <div class="row sponsors background-crimson">
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-1.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-2.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-3.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-4.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-5.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-6.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-7.png" width="100%">
+      </div>
+      <div class="col-6 col-md-3 logo">
+        <img src="../assets/images/logos/plhd-k.png" width="100%">
+      </div>
+    </div>
+
+    <!-- (Global Footer: Contact) -->
+    <div class="row contact background-crimson sm-hide">
+      <div class="col-md-9 col-12 mc-form-area">
+        <div class="row">
+          <div class="col-md-3 col-4 caption">
+            Subscribe to<br/>
+            Get Updates
+          </div>
+          <div class="col-md-4 col-8 form">
+            <img src="../assets/images/logos/plhd-k.png" width="100%">
+          </div>
+          <div class="col-2 or">
+            or
+          </div>
+          <div class="col-3 action">
+            REGISTER<br/>TODAY
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 sm-hide">
+        <div class="row">
+          <div class="col-12">
+            <h1><i class="icofont icofont-social-facebook"></i></h1>
+          </div>
+          <div class="col-12">
+            <h1><i class="icofont icofont-social-wechat"></i></h1>
+          </div>
+          <div class="col-12">
+            <h1><i class="icofont icofont-email"></i></h1>
+          </div>
+          <div class="col-12">
+            <h1><i class="icofont icofont-social-weibo"></i></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row contact background-crimson xs-sm-only">
+      <div class="col-12 mc-form-area-sm">
+        <div class="row">
+          <div class="col-md-3 col-4 caption">
+            Subscribe to<br/>
+            Get Updates
+          </div>
+          <div class="col-md-4 col-8 form">
+            <img src="../assets/images/logos/plhd-k.png" width="100%">
+          </div>
+          <div class="col-2 offset-1">
+            <h1><i class="icofont icofont-social-facebook"></i></h1>
+          </div>
+          <div class="col-2">
+            <h1><i class="icofont icofont-social-wechat"></i></h1>
+          </div>
+          <div class="col-2">
+            <h1><i class="icofont icofont-email"></i></h1>
+          </div>
+          <div class="col-2">
+            <h1><i class="icofont icofont-social-weibo"></i></h1>
+          </div>
+          <div class="col-2 action">
+            REGISTER<br/>TODAY
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- (Global Footer: Footer) -->
+    <div class="row footer-img">
+      <div class="col-12" style="text-align:center;">
+        <div class="stop-sign"></div>
+      </div>
+      <div class="col-12">
+        <img src="../assets/images/others/pwcs-banner.png" width="100%">
+      </div>
+    </div>
+
+    <!-- (Global Footer: BANNER) -->
+    <div class="row banner">
+      <div class="col-6 copyright">
+        	&copy; COPYRIGHT 2017-2018 PENN WHARTON CHINA SUMMIT
+      </div>
+      <div class="col-6 credit">
+        	WORK OF ZHILEI ZHENG, MINDY MA, TONY ZHENG, TRACY YAN
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script>
+      $("div.s3-sm-sp-1").hover(
+        function() {
+          $("div.s3-sm-sp-1").css("filter", "grayscale(100%)")
+          $(this).css("filter", "none");
+        }, function() {
+          $(this).css("filter", "grayscale(100%)")
+        }
+      );
+
+      $("div.filter-select").hover(
+        function() {
+          $("div.filter-select").css("filter", "grayscale(100%)")
+          $(this).css("filter", "none");
+        }, function() {
+          $(this).css("filter", "grayscale(100%)")
+        }
+      )
+    </script>
   </body>
 </html>

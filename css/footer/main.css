@@ -1,0 +1,111 @@
+.sponsors .logo{
+  padding: 3%;
+  margin-top: 2%;
+}
+
+.contact {
+  padding: 5%;
+  padding-left: 0%;
+}
+
+.contact .mc-form-area{
+  border: 15px solid white;
+}
+
+.contact .mc-form-area .caption{
+  padding: 2%;
+  padding-top: 80px;
+  min-height: 200px;
+  text-align: right;
+  color: black;
+  font-family: avn-regular;
+}
+
+.contact .mc-form-area .form{
+  padding: 2%;
+  padding-top: 50px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+  font-family: avn-regular;
+}
+
+.contact .mc-form-area .or{
+  padding: 2%;
+  padding-top: 90px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+  font-family: avn-regular;
+}
+
+.contact .mc-form-area .action{
+  padding: 2%;
+  font-size: 25px;
+  padding-top: 60px;
+  min-height: 200px;
+  text-align: left;
+  color: white;
+  font-family: avn-medium;
+}
+
+.footer-img{
+  height: 93%;
+  background: url("../../assets/images/backgrounds/footer-1.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
+.footer-img img {
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+}
+
+.footer-img .stop-sign {
+  position: absolute;
+  top: 10%;
+  background-color: crimson;
+  height: 5px;
+  width: 20%;
+  margin-left: 40%;
+  overflow: hidden;
+}
+
+.banner {
+  height: 7%;
+  padding-top: 1%;
+  background-color: black;
+  color: white;
+  font-family: avn-demi;
+  text-align: center;
+}
+
+
+.contact .mc-form-area-sm {
+  border: 10px solid white;
+}
+
+.contact .mc-form-area-sm .caption{
+  padding: 2%;
+  text-align: right;
+  color: black;
+  padding-top: 10%;
+  font-family: avn-regular;
+}
+
+.contact .mc-form-area-sm .form{
+  padding: 2%;
+  text-align: center;
+  color: white;
+  font-family: avn-regular;
+}
+
+
+.contact .mc-form-area-sm .action{
+  padding-top: -15px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+  font-family: avn-regular;
+}

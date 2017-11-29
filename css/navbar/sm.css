@@ -1,0 +1,94 @@
+@media (min-width: 400px) and (max-width: 575px) {
+
+  .pwcs-navbar {
+    height: 100%;
+    background: url("../../assets/images/backgrounds/dean-sm.jpg");
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .header-left-box {
+    width: 50%;
+    height: 50%;
+    border: 20px solid crimson;
+    position: absolute;
+    top: 20%;
+    left: -25%;
+    overflow: hidden;
+  }
+
+  .header-caption {
+    color: white;
+    font-family: avn-demi;
+    font-size: 44px;
+    width: 70%;
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 8%;
+  }
+
+  .header-sub-caption {
+    color: #EAEAEA;
+    font-family: avn-regular;
+    font-size: 18px;
+    position: absolute;
+    text-align: right;
+    top: 65%;
+    left: auto;
+    right: 8%;
+  }
+
+  .extended-box{
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+  }
+
+  .extended-action{
+    font-size: 25px;
+    padding: 7%;
+    width: 100%;
+    font-family: avn-regular;
+    text-align: center;
+    color: white;
+  }
+
+  .extended-button{
+    font-size: 44px;
+    padding-top: 2%;
+    width: 100%;
+    font-family: avn-regular;
+    text-align: center;
+    color: white;
+  }
+
+  .navigation-button{
+    color: white;
+    font-family: avn-regular;
+    font-size: 30px;
+    position: absolute;
+    text-align: right;
+    top: 3%;
+    right: 8%;
+  }
+
+  .header-v-caption{
+    color: crimson;
+    font-family: avn-demi;
+    position: absolute;
+    text-align:right;
+    font-size: 14px;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    right: 6%;
+    top: auto;
+    bottom: 18%;
+    transform: none;
+    transform-origin:bottom right;
+  }
+
+}
