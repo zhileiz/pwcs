@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html{
   height: 100%;
   width: 100%;
@@ -100,3 +101,39 @@ p{
 .carousel-control-prev{
   max-width: 10%;
 }
+=======
+@font-face {
+  font-family: "ThomasMag-reg";
+  src: url("../../../assets/fonts/Thomas Mag Regular.otf");
+  src:
+  url("../../../assets/fonts/Thomas Mag Regular.otf") format("opentype");
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: red;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.row{
+  background-color: red;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+.col{
+  background-color: blue;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+>>>>>>> d3f2854a3eba49a93ca62eaba15a24586de07cdb

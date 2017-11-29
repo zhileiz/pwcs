@@ -1,0 +1,15 @@
+@media (max-width: 575px) {
+
+.grand-title{
+  font-size: 200%;
+}
+
+.caption{
+  font-size: 71%;
+}
+
+.panel{
+  font-size: 100%;
+}
+
+}
