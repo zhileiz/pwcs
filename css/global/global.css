@@ -16,21 +16,24 @@
   font-family: "avn-bold-i";
   src: url("../../../assets/fonts/AvenirNext-BoldItalic.ttf");
   src:
-  url("../../assets/fonts/AvenirNext-BoldItalic.ttf") format("truetype");
+  url("../../assets/fonts/AvenirNext-BoldItalic.ttf") format("truetype"),
+  url("../../assets/fonts/AvenirNext-BoldItalic.ttf");
 }
 
 @font-face {
   font-family: "avn-demi";
   src: url("../../../assets/fonts/AvenirNext-DemiBold.ttf");
   src:
-  url("../../assets/fonts/AvenirNext-DemiBold.ttf") format("truetype");
+  url("../../assets/fonts/AvenirNext-DemiBold.ttf") format("truetype"),
+  url("../../assets/fonts/AvenirNext-DemiBold.ttf");
 }
 
 @font-face {
   font-family: "avn-demi-i";
   src: url("../../../assets/fonts/AvenirNext-DemiBoldItalic.ttf");
   src:
-  url("../../assets/fonts/AvenirNext-DemiBoldItalic.ttf") format("truetype");
+  url("../../assets/fonts/AvenirNext-DemiBoldItalic.ttf") format("truetype"),
+  url("../../assets/fonts/AvenirNext-DemiBoldItalic.ttf");
 }
 
 @font-face {
@@ -58,7 +61,8 @@
   font-family: "avn-medium";
   src: url("../../../assets/fonts/AvenirNext-Medium.ttf");
   src:
-  url("../../assets/fonts/AvenirNext-Medium.ttf") format("truetype");
+  url("../../assets/fonts/AvenirNext-Medium.ttf") format("truetype"),
+  url("../../assets/fonts/AvenirNext-Medium.ttf");
 }
 
 @font-face {
